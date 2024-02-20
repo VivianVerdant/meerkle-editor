@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1_copy" data-name="Layer 1 copy" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M150,40H50c-5.52,0-10,4.48-10,10v100c0,5.52,4.48,10,10,10s10-4.48,10-10V60h80v90c0,5.52,4.48,10,10,10s10-4.48,10-10V50c0-5.52-4.48-10-10-10Z"/>
+  <path class="cls-1" d="M100,126.58c5.52,0,10-4.48,10-10v-16.58c0-5.52-4.48-10-10-10s-10,4.48-10,10v16.58c0,5.52,4.48,10,10,10Z"/>
+</svg>
