@@ -1,32 +1,28 @@
-var meerkle_buttons;
-var meerkle_size_input;
+var meerkle_buttons = document.querySelectorAll("button.meerkle");
+var meerkle_size_input = document.getElementById("meerkle-size-input");
 var meerkle_size = 12;
-var meerkle_spacing_input;
+var meerkle_spacing_input = document.getElementById("meerkle-spacing-input");
 var meerkle_spacing = 0;
+var romankle_textarea = document.getElementById("romankle-textarea");
+var meerkle_textarea = document.getElementById("meerkle-textarea");
 
-meerkle_buttons = document.querySelectorAll("button.meerkle");
-console.log(meerkle_buttons);
 
-meerkle_size_input = document.getElementById("meerkle-size-input");
-console.log(meerkle_size_input);
 meerkle_size_input.oninput = (value) => {meerkle_size = meerkle_size_input.value; update_textareas()};
 
-meerkle_spacing_input = document.getElementById("meerkle-spacing-input");
-console.log(meerkle_spacing_input)
 meerkle_spacing_input.oninput = (value) => {meerkle_spacing = meerkle_spacing_input.value; update_textareas()};
 
 function update_textareas() {
-	let area = document.getElementById("meerkle-texarea");
 	let str = `font-size: ${meerkle_size};letter-spacing: ${meerkle_spacing}rem;`;
-	console.log(str);
-	area.setAttribute("style", str);
+	meerkle_textarea.setAttribute("style", str);
 }
 
 for (button of meerkle_buttons) {
-	console.log(button)
 	button.addEventListener("click", meerkle_button_click);
 }
 
 function meerkle_button_click(event) {
-	console.log(event);
+	let char = event.target.innerText;
+	console.log(char);
+	romankle_textarea.innerText.concat(char)
+	meerkle_textarea.innerText.concat(char)
 }
