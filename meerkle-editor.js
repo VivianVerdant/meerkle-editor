@@ -1,8 +1,8 @@
 var meerkle_buttons;
 var meerkle_size_input;
-var meerkle_size;
+var meerkle_size = 12;
 var meerkle_spacing_input;
-var meerkle_spacing;
+var meerkle_spacing = 0;
 
 meerkle_buttons = document.querySelectorAll("button.meerkle");
 console.log(meerkle_buttons);
