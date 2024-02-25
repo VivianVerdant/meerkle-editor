@@ -22,7 +22,7 @@ function update_textareas() {
 	area.setAttribute("style", str);
 }
 
-for (button in meerkle_buttons) {
+for (button of meerkle_buttons) {
 	console.log(button)
 	button.addEventListener("click", meerkle_button_click);
 }
