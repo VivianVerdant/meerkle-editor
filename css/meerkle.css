@@ -23,6 +23,14 @@
     font-family: "Meerkle Sans", "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
+.meerkle-input button {
+    padding: 0 0.5rem;
+}
+
+.meerkle-input span {
+    padding: 0 0.75rem;
+}
+
 /*
 a.svg
 aa.svg
