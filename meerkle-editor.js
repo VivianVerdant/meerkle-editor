@@ -23,9 +23,9 @@ function update_textareas() {
 }
 
 for (button in meerkle_buttons) {
-	button.onclick = meerkle_button_click(this);
+	button.onclick = (event) => {meerkle_button_click(event.target)};
 }
 
-function meerkle_button_click(element) {
-	console.log(element);
+function meerkle_button_click(target) {
+	console.log(target);
 }
