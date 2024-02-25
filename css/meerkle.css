@@ -35,6 +35,10 @@
     margin: 0.25rem;
 }
 
+.meerkle-input .input-group {
+    min-width: 100px;
+}
+
 /*
 a.svg
 aa.svg
