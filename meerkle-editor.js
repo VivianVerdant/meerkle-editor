@@ -18,6 +18,7 @@ meerkle_spacing_input.oninput = (value) => {meerkle_spacing = value; update_text
 function update_textareas() {
 	let area = document.getElementById("meerkle-texarea");
 	area.style = `font-size: ${meerkle_size};letter-spacing: ${meerkle_spacing}rem;`;
+	console.log(area.style);
 }
 
 for (button in meerkle_buttons) {
