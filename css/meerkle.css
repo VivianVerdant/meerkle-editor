@@ -3,7 +3,6 @@
     src: url('../Meerkle-sans.eot');
     src: url('../Meerkle-sans.eot') format('embedded-opentype'),
          url('../Meerkle-sans.woff') format('woff'),
-         
          url('../Meerkle-sans.ttf') format('truetype');
 }
 
