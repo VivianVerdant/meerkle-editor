@@ -72,6 +72,9 @@ input[type="number"].spinbox::-webkit-inner-spin-button:active{
     opacity: .8;
 }
 
+h3 {
+    justify-content: left;
+}
 
 /*
 a.svg
