@@ -23,7 +23,7 @@ function update_textareas() {
 }
 
 for (button in meerkle_buttons) {
-	button.onclick = (event) => {meerkle_button_click(event.target)};
+	button.addEventListener("click", (e) => {meerkle_button_click(event.target)});
 }
 
 function meerkle_button_click(target) {
