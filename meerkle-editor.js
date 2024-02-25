@@ -40,5 +40,6 @@ for (item of font_list.children) {
 		let font = e.target.innerText;
 		console.log(font);
 		document.getElementById("current-font").value = font;
+		document.documentElement.style.setProperty("--current-font", font);
 	})
 }
