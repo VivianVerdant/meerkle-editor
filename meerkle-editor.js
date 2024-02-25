@@ -8,17 +8,18 @@ var meerkle_textarea = document.getElementById("meerkle-textarea");
 var text_string = "";
 var font_list = document.getElementById("font-list")
 
-meerkle_size_input.oninput = (value) => {meerkle_size = meerkle_size_input.value; update_textareas()};
+meerkle_size_input.oninput = (value) => {meerkle_size = meerkle_size_input.value; update_textarea_style()};
 
-meerkle_spacing_input.oninput = (value) => {meerkle_spacing = meerkle_spacing_input.value; update_textareas()};
+meerkle_spacing_input.oninput = (value) => {meerkle_spacing = meerkle_spacing_input.value; update_textarea_style()};
+
+function update_textarea_style(){
+	let str = `font-size: ${meerkle_size};letter-spacing: ${meerkle_spacing}rem;`;
+	meerkle_textarea.setAttribute("style", str);
+}
 
 function update_textareas() {
 	romankle_textarea.value = text_string;
 	meerkle_textarea.value = text_string;
-
-	let str = `font-size: ${meerkle_size};letter-spacing: ${meerkle_spacing}rem;`;
-	meerkle_textarea.setAttribute("style", str);
-	
 }
 
 for (button of meerkle_buttons) {
