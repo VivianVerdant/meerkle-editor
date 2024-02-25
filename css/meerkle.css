@@ -25,6 +25,8 @@
 
 .meerkle-input button {
     padding: 0 0.5rem;
+    width: 4rem;
+    float: left;
 }
 
 .meerkle-input span {
@@ -35,8 +37,6 @@
 
 .meerkle-input {
     margin: 0.25rem;
-    width: 4rem;
-    float: left;
 }
 
 /*
