@@ -1,9 +1,31 @@
+:root {
+    --current-font: "Meerkle Sans";
+}
+
 @font-face {
     font-family: "Meerkle Sans";
     src: url('../Meerkle-sans.eot');
     src: url('../Meerkle-sans.eot') format('embedded-opentype'),
          url('../Meerkle-sans.woff') format('woff'),
          url('../Meerkle-sans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Haia";
+    src: url('../Haia.ttf');
+    src: url('../Haia.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Shihaia";
+    src: url('../Shihaia.ttf');
+    src: url('../Shihaia.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Meerklebet9x9";
+    src: url('../meerklebet9x9.ttf');
+    src: url('../meerklebet9x9.ttf') format('truetype');
 }
 
 .char-a::before {
@@ -18,7 +40,7 @@
     background-color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 10%);
     line-height: 1.5;
-    font-family: "Meerkle Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+    font-family: var(--current-font), "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 .meerkle-input button {
