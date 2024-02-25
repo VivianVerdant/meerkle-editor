@@ -38,6 +38,14 @@
     margin: 0.25rem;
 }
 
+.meerkle textarea {
+    height: 50%;
+}
+
+.romankle textarea {
+    height: 50%;
+}
+
 /*
 a.svg
 aa.svg
