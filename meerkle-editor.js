@@ -6,7 +6,7 @@ var meerkle_spacing = 0;
 var romankle_textarea = document.getElementById("romankle-textarea");
 var meerkle_textarea = document.getElementById("meerkle-textarea");
 var text_string = "";
-
+var font_list = document.getElementById("font-list")
 
 meerkle_size_input.oninput = (value) => {meerkle_size = meerkle_size_input.value; update_textareas()};
 
@@ -34,3 +34,11 @@ function meerkle_button_click(event) {
 
 romankle_textarea.addEventListener("input", (event) => {text_string = romankle_textarea.value; update_textareas()})
 meerkle_textarea.addEventListener("input", (event) => {text_string = meerkle_textarea.value; update_textareas()})
+
+for (item of font_list.children) {
+	item.addEventListener("click", (e) => {
+		let font = e.target.innerText;
+		console.log(font);
+		document.getElementById("current-font").value = font;
+	})
+}
