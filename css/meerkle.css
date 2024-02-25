@@ -1,9 +1,10 @@
 @font-face {
     font-family: "Meerkle Sans";
-    src: url('fonts/fira/eot/FiraSans-Regular.eot');
-    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
-         url('../meerkle-sans.woff') format('woff'),
-         url('../meerkle-sans.ttf') format('truetype');
+    src: url('../Meerkle-sans.eot');
+    src: url('../Meerkle-sans.eot') format('embedded-opentype'),
+         url('../Meerkle-sans.woff') format('woff'),
+         
+         url('../Meerkle-sans.ttf') format('truetype');
 }
 
 .char-a::before {
