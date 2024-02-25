@@ -24,6 +24,6 @@ for (button in meerkle_buttons) {
 	button.onclick = meerkle_button_click(this);
 }
 
-function meerkle_button_click(elment) {
+function meerkle_button_click(element) {
 	console.log(element);
 }
