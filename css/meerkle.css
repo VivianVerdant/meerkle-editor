@@ -73,6 +73,7 @@ input[type="number"].spinbox::-webkit-inner-spin-button:active{
 }
 
 h3 {
+    display: flex;
     justify-content: left;
 }
 
