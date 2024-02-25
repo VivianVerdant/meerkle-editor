@@ -29,14 +29,14 @@
 
 .meerkle-input span {
     padding: 0 0.75rem;
+    width: 4rem;
+    float: right;
 }
 
 .meerkle-input {
     margin: 0.25rem;
-}
-
-.meerkle-input .input-group-text {
-    min-width: 100px;
+    width: 4rem;
+    float: left;
 }
 
 /*
