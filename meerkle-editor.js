@@ -32,5 +32,5 @@ function meerkle_button_click(event) {
 	meerkle_textarea.value = meerkle_textarea.value.concat(char);
 }
 
-romankle_textarea.addEventListener("update", (event) => {text_string =  romankle_textarea.value; update_textareas})
-meerkle_textarea.addEventListener("update", (event) => {text_string =  meerkle_textarea.value; update_textareas})
+romankle_textarea.addEventListener("input", (event) => {text_string =  romankle_textarea.value; update_textareas})
+meerkle_textarea.addEventListener("input", (event) => {text_string =  meerkle_textarea.value; update_textareas})
