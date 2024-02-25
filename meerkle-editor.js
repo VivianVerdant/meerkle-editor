@@ -23,6 +23,6 @@ for (button of meerkle_buttons) {
 function meerkle_button_click(event) {
 	let char = event.target.innerText;
 	console.log(char);
-	romankle_textarea.innerText.concat(char)
-	meerkle_textarea.innerText.concat(char)
+	romankle_textarea.innerText = romankle_textarea.innerText.concat(char);
+	meerkle_textarea.innerText = meerkle_textarea.innerText.concat(char);
 }
