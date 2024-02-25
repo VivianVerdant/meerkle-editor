@@ -26,11 +26,13 @@
 .meerkle-input button {
     padding: 0 0.5rem;
     width: 4rem;
+    justify-content: left;
 }
 
 .meerkle-input span {
     padding: 0 0.75rem;
     width: 4rem;
+    justify-content: right;
 }
 
 .meerkle-input {
