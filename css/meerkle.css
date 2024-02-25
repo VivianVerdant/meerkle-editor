@@ -39,10 +39,14 @@
 }
 
 .meerkle textarea {
-    height: 50%;
+    height: 100%;
 }
 
 .romankle textarea {
+    height: 100%;
+}
+
+.half-height {
     height: 50%;
 }
 
