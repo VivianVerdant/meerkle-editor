@@ -1,5 +1,6 @@
 :root {
     --current-font: "Meerkle Sans";
+    --font-adjust: 0;
 }
 
 @font-face {
@@ -14,7 +15,6 @@
     font-family: "Haia";
     src: url('../Haia.ttf');
     src: url('../Haia.ttf') format('truetype');
-    padding-top: 1rem;
 }
 
 @font-face {
@@ -47,6 +47,7 @@
 .meerkle-input button {
     padding: 0 0.5rem;
     line-height: 1.5rem;
+    padding-top: var(--font-adjust);
     /*width: 3rem;*/
 }
 

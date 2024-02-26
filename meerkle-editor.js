@@ -42,5 +42,10 @@ for (item of font_list.children) {
 		console.log(font);
 		document.getElementById("current-font").value = font;
 		document.documentElement.style.setProperty("--current-font", font);
+		if (font === "Meerkle Sans") {
+			document.documentElement.style.setProperty("--font-adjust", "0");
+		} else {
+			document.documentElement.style.setProperty("--font-adjust", "1rem");
+		}
 	})
 }
